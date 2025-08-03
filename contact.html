@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me | Ribbon Bouquet Studio</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background-color: #fff0f5;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+    }
+
+    .contact-box {
+      background: #fff;
+      padding: 30px;
+      border-radius: 15px;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+      max-width: 500px;
+      width: 90%;
+      text-align: center;
+    }
+
+    h1 {
+      color: #d63384;
+      margin-bottom: 10px;
+    }
+
+    p {
+      color: #555;
+      font-size: 14px;
+    }
+
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: 1px solid #ccc;
+      font-size: 14px;
+    }
+
+    textarea {
+      height: 120px;
+      resize: none;
+    }
+
+    .btn {
+      background-color: #d63384;
+      color: white;
+      border: none;
+      padding: 12px 20px;
+      border-radius: 10px;
+      font-size: 16px;
+      cursor: pointer;
+      margin-top: 10px;
+      transition: background-color 0.3s;
+    }
+
+    .btn:hover {
+      background-color: #b92a6e;
+    }
+
+    a.home-link {
+      display: block;
+      margin-top: 20px;
+      text-decoration: none;
+      color: #d63384;
+    }
+  </style>
+</head>
+<body>
+
+  <div class="contact-box">
+    <h1>Contact Me</h1>
+    <p>Got a question or want to order a custom bouquet? Send me a message below!</p>
+
+    <form action="https://formsubmit.co/sitaraalvi022@gmail.com" method="POST">
+      <input type="text" name="_honey" style="display:none">
+      <input type="hidden" name="_captcha" value="false">
+      <input type="text" name="name" placeholder="Your Name" required>
+      <input type="email" name="email" placeholder="Your Email" required>
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit" class="btn">Send</button>
+  </form>
+
+
+    <a href="index.html" class="home-link">← Back to Home</a>
+  </div>
+
+</body>
+</html>
